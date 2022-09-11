@@ -13,6 +13,7 @@ public class Main {
         } else {
             System.out.println("Установите облегченную версию приложения для Android по ссылке");
         }
+
         //Задание 3
         int highYear = 2021;
         if (highYear % 4 == 0 && highYear % 100 == 0 && highYear % 400 == 0) {
