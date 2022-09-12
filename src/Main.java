@@ -16,7 +16,7 @@ public class Main {
 
         //Задание 3
         int highYear = 2021;
-        if (highYear % 4 == 0 && highYear % 100 == 0 && highYear % 400 == 0) {
+        if (highYear % 4 == 0 && (highYear % 100 != 0 || highYear % 400 == 0)) {
             System.out.println(highYear + " год является високосным");
         } else {
             System.out.println(highYear + " год не является високосным");
